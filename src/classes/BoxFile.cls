@@ -351,7 +351,6 @@ public class BoxFile extends BoxItem {
         return BoxComment.addComment(this.api, url, commentInfo);
     }
 
-    public Box
 
     /**
      * Infrmation about BoxFile
