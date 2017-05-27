@@ -225,6 +225,6 @@ public class BoxFileTests {
       BoxFile.Info retrievedTrashedFile = file.getTrashedFile();
       Test.stopTest();
 
-      System.assertEquals('10559150999', fileInfo.getValue('id') );
+      System.assertEquals('10559150999', retrievedTrashedFile.getValue('id') );
     }
 }
